@@ -1,0 +1,149 @@
+body {
+
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+body h1 {
+
+  padding: 20px;
+  margin-top: 0px;
+  background: radial-gradient(at 20% 70%, #15afe7, transparent), radial-gradient(at 50% 30%, #fa84db, transparent), radial-gradient(at 80% 80%, #80eb0e, transparent);
+  background-attachment: fixed;
+  font-style: normal;
+  color: rgb(253, 254, 254);
+  margin-bottom: 0px;
+  font-family: serif;
+}
+
+.useful-expression {
+
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.timer-display {
+
+  margin-bottom: 20px;
+  color: #333;
+  padding: 70px 120px;
+  font-size: 8em;
+  -webkit-text-stroke: 1px white;
+  opacity: 0.8;
+}
+
+.timer-settings button {
+
+  margin: 20px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.controls button {
+
+  margin-left: 20px;
+  color: white;
+  margin-top: 20px;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.timer-button button:hover {
+  opacity: 0.8
+}
+
+.startStopping {
+  background-color: #007bff;
+}
+
+.resetting {
+  background-color: gray;
+  color: #333;
+}
+
+.sound-button-group-wrapper {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+
+.sound-option-pair {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.sound-select-button {
+
+  cursor: pointer;
+  padding: 8px 20px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  color: #333;
+  transition: all 0.3s ease;
+  min-width: 80px;
+  opacity: 1;
+}
+
+.sound-select-button:hover {
+  background-color: #e0e0e0;
+  border-color: #999;
+}
+
+.sound-select-button.active-sound {
+
+  background-color: #28a745;
+  color: white;
+  border-color: #28a745;
+  font-weight: bold;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  opacity: 1;
+}
+
+.sound-select-button.inactive-sound {
+    opacity: 0.5;
+  background-color: #d0d0d0;
+}
+
+.trial-button {
+
+  cursor: pointer;
+  padding: 2px 20px;
+  margin: 5px 0;
+  font-size: 0.9em;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  background-color: #e6e6e6;
+  color: #555;
+  transition: all 0.3s ease;
+  min-width: 80px;
+  opacity: 1;
+}
+
+.trial-button:hover {
+  background-color: #d0d0d0;
+  border-color: #888;
+}
+
+
+
