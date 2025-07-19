@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="titleDisplay">やすらぎタイマー</title>
+  <link rel="stylesheet" href="web-clock-style.css">
+  <link rel="icon" href="favicon-header/favicon.ico">
+</head>
+<body>
+
+      <div class="timer-container">
+        
+        <h1>やすらぎタイマー</h1>
+        <p class="useful-expression" id="usefulExpression">～時間と音を設定してください～</p>
+        <div class="timer-button">
+          <div class="timer-settings">
+          <button id="tenMin">＋１０分</button>
+          <button id="oneMin">＋１分</button>
+          <button id="tenSec">＋１０秒</button>
+        </div>
+       <div id="timerDisplay" class="timer-display">00:00:00</div>
+        
+        <div class="controls">
+            <button id="startstop" class="startStopping">スタート</button>
+            <button id="reset" class="resetting">リセット</button>
+        </div>
+
+         <div class="sound-button-group-wrapper">
+            <div class="sound-option-pair">
+                <button id="catSound" class="cat-SE sound-select-button">猫</button>
+                <button id="catTrial" class="cat-trial trial-button">▶試聴</button>
+            </div>
+            <div class="sound-option-pair">
+                <button id="birdSound" class="bird-SE sound-select-button">鳥</button>
+                <button id="birdTrial" class="bird-trial trial-button">▶試聴</button>
+            </div>
+            <div class="sound-option-pair">
+                <button id="natureSound" class="nature-SE sound-select-button">自然音</button>
+                <button id="natureTrial" class="nature-trial trial-button">▶試聴</button>
+            </div>
+            <div class="sound-option-pair">
+              <button id="otherSound" class="other-Sound sound-select-button">その他</button>
+              <button id="otherTrial" class="other-trial trial-button">▶試聴</button>
+            </div>
+        </div>
+     </div>  
+    
+    <script src="web-clock-script.js"></script>
+  
+</body>
+</html>
